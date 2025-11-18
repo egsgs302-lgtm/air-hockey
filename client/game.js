@@ -164,6 +164,4 @@ function tick(ts) {
   state.me.x += (state.input.x - state.me.x) * 0.35;
   state.me.y += (state.input.y - state.me.y) * 0.35;
   clampMallet(state.me, true);
-  clampMallet(state.opp, false);
-
-  state.puck.x += state.puck.vx
+  clampMallet(state
